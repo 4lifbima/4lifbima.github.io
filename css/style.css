@@ -176,7 +176,7 @@ html {
   margin-bottom: 30px;
   inline-size: 30%;
 }
-@media (max-width: 480px) {
+@media (max-width: 576px) {
   .project .ikon {
     margin-bottom: 30px;
     inline-size: 10%;
@@ -270,7 +270,7 @@ html {
   margin-bottom: 50px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
   .navbar {
     margin-top: 0 !important;
   }
@@ -346,9 +346,9 @@ html {
   }
   .programming img,
   .tools img {
-    width: 140%;
+    width: 100%;
     max-height: 60px;
-
+    padding-right: 10px;
   }
   .project .detail {
     margin-top: 25px;
@@ -397,9 +397,9 @@ html {
   }
   .programming img,
   .tools img {
-    width: 120%;
+    width: 100%;
     max-height: 60px;
-
+    padding-right: 10px;
   }
 }
 
@@ -450,7 +450,7 @@ html {
 
 @media (max-width: 576px) {
   .link-section .btn-contact {
-    width: 206px;
+    width: 200px;
     font-size: 12px;
   }
   .link-section .btn-resume {
