@@ -15,7 +15,7 @@ html {
   left: -225px;
   top: 0;
   z-index: -1;
-  background-color: #1b4449;
+  background-color: #0e0020;
   filter: blur(120px);
   border-radius: 600px;
   opacity: 0.4;
@@ -176,7 +176,7 @@ html {
   margin-bottom: 30px;
   inline-size: 30%;
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .project .ikon {
     margin-bottom: 30px;
     inline-size: 10%;
@@ -239,7 +239,7 @@ html {
   width: 450px;
   left: -225px;
   z-index: -1;
-  background-color: #1b4449;
+  background-color: #0e0020;
   filter: blur(120px);
   border-radius: 600px;
   opacity: 0.4;
@@ -270,7 +270,7 @@ html {
   margin-bottom: 50px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
   .navbar {
     margin-top: 0 !important;
   }
@@ -347,7 +347,8 @@ html {
   .programming img,
   .tools img {
     width: 140%;
- 
+    max-height: 60px;
+    padding-right: 80px;
   }
   .project .detail {
     margin-top: 25px;
@@ -377,7 +378,7 @@ html {
     opacity: 0.4;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .navbar-nav {
     flex-direction: unset;
   }
@@ -397,7 +398,7 @@ html {
   .programming img,
   .tools img {
     width: 120%;
-    max-height: 50px;
+    max-height: 60px;
     padding-right: 80px;
   }
 }
