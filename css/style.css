@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 body {
-  background: #12141b;
+  background: #0e0020;
   color: #fafafa;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
@@ -15,7 +15,7 @@ html {
   left: -225px;
   top: 0;
   z-index: -1;
-  background-color: #5743b7;
+  background-color: #1b4449;
   filter: blur(120px);
   border-radius: 600px;
   opacity: 0.4;
@@ -174,7 +174,7 @@ html {
 }
 .project .ikon {
   margin-bottom: 30px;
-  inline-size: 25%;
+  inline-size: 30%;
 }
 @media (max-width: 768px) {
   .project .ikon {
@@ -221,17 +221,15 @@ html {
   text-align: center;
   margin-bottom: 70px;
 }
-.programming img {
-  padding-right: 10px;
-  margin-bottom: 80px;
+.programming img,
+.tools img {
+  width: 55%;
+  margin-bottom: 10px;
 }
 .programming .mysql {
   padding-right: 0;
 }
-.tools img {
-  padding-right: 10px;
-  margin-bottom: 50px;
-}
+
 .tools .figma {
   padding-right: 0;
 }
@@ -241,7 +239,7 @@ html {
   width: 450px;
   left: -225px;
   z-index: -1;
-  background-color: #5743b7;
+  background-color: #1b4449;
   filter: blur(120px);
   border-radius: 600px;
   opacity: 0.4;
@@ -348,11 +346,8 @@ html {
   }
   .programming img,
   .tools img {
-    max-height: 30px !important;
-    padding-right: 10px !important;
-  }
-  .programming img {
-    margin-bottom: 35px;
+    width: 140%;
+ 
   }
   .project .detail {
     margin-top: 25px;
@@ -401,8 +396,9 @@ html {
   }
   .programming img,
   .tools img {
+    width: 120%;
     max-height: 50px;
-    padding-right: 25px;
+    padding-right: 80px;
   }
 }
 
@@ -472,33 +468,33 @@ html {
 }
 
 /* project */
-.boxfilms-web {
+.siakad-web {
   margin-top: 50px;
 }
-.boxfilms-web img {
+.siakad-web img {
   width: 600px;
   border-radius: 15px;
 }
-.boxfilms-web .btn-web {
-  width: 140px !important;
+.siakad-web .btn-web {
+  width: 100px !important;
   background: #5743b7;
   border: #5743b7;
   padding: 10px 20px;
   border-radius: 200px;
   width: 120px;
 }
-.boxfilms-web .btn-web:hover {
+.siakad-web .btn-web:hover {
   background: #4027c0;
 }
-.webskolah-caption {
+.siakad-caption {
   margin-top: 5px;
 }
-.boxfilms-web h2 {
+.siakad-web h2 {
   font-weight: 700;
   font-size: 36px;
   margin-bottom: 20px;
 }
-.boxfilms-web p {
+.siakad-web p {
   font-size: 16px;
   margin-bottom: 20px;
 }
