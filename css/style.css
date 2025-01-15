@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 body {
   background: #0e0020;
   color: #fafafa;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Quicksand", serif;
   overflow-x: hidden;
 }
 html {
@@ -22,7 +22,15 @@ html {
 }
 /* nav */
 .navbar {
-  margin-top: 15px;
+  margin-top: 5px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
+  border: 1px solid rgba(255, 255, 255, 0.64);
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .logo {
   max-height: 30px;
@@ -117,15 +125,28 @@ html {
   font-size: 16px;
   margin-bottom: 20px;
 }
-.hero .contact {
+
+
+.hero .cv {
   background: #5743b7;
-  border: #5743b7;
+  border: #5743b7 1px solid;
   padding: 10px 20px;
-  border-radius: 200px;
+  border-radius: 10px;
   width: 120px;
 }
-.hero .contact:hover {
-  background: #e61f1f;
+.hero .linkedin {
+  background: transparent;
+  border: #5743b7 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 120px;
+}
+.hero .cv:hover {
+  background: transparent;
+  border: #541fe6 1px solid;
+}
+.hero .linkedin:hover {
+  background: #5743b7;
 }
 .hero .hero_img {
   margin-top: -80px;
@@ -158,13 +179,13 @@ html {
 .project .boxfilms,
 .project .furniture {
   max-height: 400px;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 .project .web-caption,
 .project .app-caption {
   margin-top: 5px;
   text-decoration: none;
-  color: #ffc400;
+  color: #f1b100;
   text-align: left;
   font-weight: 700;
 }
@@ -175,7 +196,7 @@ html {
 }
 .project .ikon {
   margin-bottom: 30px;
-  inline-size: 30%;
+  inline-size: 27%;
 }
 @media (max-width: 576px) {
   .project .ikon {
@@ -271,27 +292,45 @@ html {
   margin-bottom: 50px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px) and (max-width: 900px) {
   .navbar {
-    margin-top: 0 !important;
+    margin: 0;
+    margin-top: 5px;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(255, 255, 255, 0.64);
+    margin-left: 45px;
+    margin-right: 45px;
   }
   .navbar .navbar-nav {
     width: 60%;
     position: fixed;
     flex-direction: column;
-    height: 100vh;
+    height: 45vh;
     top: 0;
     bottom: 0;
     right: 0;
     background: #161821;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 5px;
     z-index: 1;
     display: none;
     transition: all 0.5s;
   }
   .navbar .navbar-nav.slide {
     display: flex;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(255, 255, 255, 0.64);
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 25%;
   }
   .navbar .nav-item .nav-link {
     padding-top: 50px;
@@ -321,7 +360,11 @@ html {
   .hero h4 {
     font-size: 20px;
   }
-  .hero .contact {
+  .buttons {
+    position: relative;
+    justify-content: center;
+  }
+  .hero .cv, .linkedin {
     display: block;
     margin: 5px auto;
   }
